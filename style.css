@@ -1,0 +1,71 @@
+html {
+    font-size: 2rem;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+}
+
+.noto-serif-p {
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-size: 0.5rem;
+}
+
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.delius-regular {
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.orange-bg {
+    background-color: #ffbc4c;
+    height: 100vh;
+}
+
+.yellow-bg {
+    background-color: #feffc4;
+}
+
+.orange {
+    color: #ffbc4c;
+}
+
+.yellow {
+    color: #feffc4;
+}
+
+
+
+h1, h2, h3 {
+    padding: 0px;
+    margin: 0px;
+    text-overflow: ellipsis;
+    font-size: 1rem;
+}
+
+.carousel > .carousel-inner > .carousel-item > img {
+    max-width: 50%; 
+    max-height: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
